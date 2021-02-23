@@ -1,0 +1,44 @@
+{
+  "name": "kinjo-mapbox",
+  "homepage": "http://kinjo.fr",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "formik": "^0.7.2",
+    "fs": "0.0.1-security",
+    "immutable": "^3.8.1",
+    "lodash.merge": "^4.6.0",
+    "mailgun-js": "^0.11.2",
+    "mapbox": "^1.0.0-beta7",
+    "mapbox-gl": "0.38.0",
+    "material-ui": "4.0.0",
+    "material-ui-icons": "^1.0.0-alpha.19",
+    "net": "^1.0.2",
+    "next": "3",
+    "react": "^15.6.0",
+    "react-dom": "^15.6.0",
+    "react-grid-system": "^2.9.2",
+    "react-tap-event-plugin": "^2.0.1",
+    "styled-jsx": "^1.0.5",
+    "tls": "0.0.1",
+    "typeface-roboto": "^0.0.29",
+    "yup": "^0.21.3"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "now": {
+    "name": "kinjo",
+    "alias": "kinjo",
+    "public": false
+  }
+}
