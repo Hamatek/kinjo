@@ -7,7 +7,13 @@ module.exports = {
       delete config.resolve.alias['react-dom']
     }
     config.devtool = 'eval-source-map';
-      config.module.noParse= `/(mapbox-gl)\.js$/`;
+    config.module.noParse = `/(mapbox-gl)\.js$/`;
     return config
-  }
+  },
+  exportPathMap: async function (
+  ) {
+    return {
+      '/': { page: '/' },
+    }
+  },
 };
