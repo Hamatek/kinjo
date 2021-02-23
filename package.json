@@ -15,7 +15,7 @@
     "mailgun-js": "^0.11.2",
     "mapbox": "^1.0.0-beta7",
     "mapbox-gl": "0.38.0",
-    "material-ui": "4.0.0",
+    "material-ui": "1.0.0-alpha.20",
     "material-ui-icons": "^1.0.0-alpha.19",
     "net": "^1.0.2",
     "next": "3",
